@@ -46,7 +46,7 @@ class Talk:
     def convo(self, chatterbot):
         while True:
             # User input is asked
-            userInput = input("Ask the Skynet a question or q to quit: ")
+            userInput = input("Ask Skynet the bot a question or q to quit: ")
             # gets the response from the bot according to the userInput given
             response = chatterbot.get_response(userInput)
             # Quits if user enters q
