@@ -36,7 +36,7 @@ class Talk:
             # Prints the response.
             print(response)
 
-            return userInput
+        return userInput
 
 def main():
     #Creats a ChatBot object, the bot is named Skynet
