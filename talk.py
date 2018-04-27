@@ -12,6 +12,23 @@ class Talk:
 
     #Later on we can read the converstaion from a file rather than storing in a function, returns a list of the convo
     def listofConversation(self):
+        """
+        #Here you can read the conversationList from a file and store in a list rather than putting in function.
+        #For example put the following in the file:
+            "Hi",                                  #Question 1
+            "Hey",                                  #Answer 1
+            "Hello",                                #Question 2
+            "Hi there!",                            #Answer 2
+            "How are you doing?",                   #Question 3
+            "I'm doing great.",                     #Answer 3 and so on....
+            "That is good to hear",
+            "Thank you.",
+            "You're welcome."
+        covoList = list()
+        with open("conversation.txt", "r") as q:
+            convoList.append(q)
+        return convoList
+        """
         # Using this we can train the chatterbot, this is a list of a converstaion
         conversation = [
             "Hi",
