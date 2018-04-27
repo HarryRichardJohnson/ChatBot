@@ -3,6 +3,8 @@
 # @author BBerryNZ
 # Simple Chatbot prototype
 
+#Will neaten up the code a bit later and add more complex stuff, but before since this is just a prototype/mini bot, this is all for now
+
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
