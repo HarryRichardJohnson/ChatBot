@@ -49,8 +49,6 @@ class Talk:
             # Prints the response.
             print(response)
 
-        return userInput
-
 def main():
     #Creats a ChatBot object, the bot is named Skynet
     #This will help solve math problems and give current time etc...... But then stops having proper conversation, need to fix later
