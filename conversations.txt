@@ -26,3 +26,5 @@ User: Thanks for your help
 Bot: No problem, mate!
 User: What would be a suggested set of papers for a software dev major in BCIS
 Bot: COMP603 Program Design & Construction, COMP603 Program Design & Construction, COMP604 Operating Systems, INFS602 Physical Database Design, ENSE701 Software Engineering, COMP719 Applied Human Computer Interaction, COMP721 Web Development, COMP713 Distributed & Mobile Systems
+User: what are the prerequisites for COMP500?
+Bot: There are none.
