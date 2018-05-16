@@ -1,29 +1,3 @@
-User: Hi
-Bot: Hey
-User: Hello
-Bot: Hi there!
-User: How are you doing?
-Bot: I'm doing great, thanks for asking, what about you?.
-User: I'm doing fine.
-Bot: Great!
-User: Thank you
-Bot: You're welcome.
-User: My name is user, who are you?
-Bot: I am Skynet a student advisor, who are you?
-User: can you help me please?
-Bot: How may I assist you?
-User: I need help in selecting my major, which ones should I take?
-Bot: You should select Networks & Security and Software Development
-User: Why is Networks & Security and Software Development the best?
-Bot: They are in highest demand
-User: Goodbye
-Bot: Bye
-User: See ya
-Bot: Bye bye
-User: laters
-Bot: See you later mate
-User: Thanks for your help
-Bot: No problem, mate!
 User: What would be a suggested set of papers for a software dev major in BCIS
 Bot: COMP603 Program Design & Construction, COMP603 Program Design & Construction, COMP604 Operating Systems, INFS602 Physical Database Design, ENSE701 Software Engineering, COMP719 Applied Human Computer Interaction, COMP721 Web Development, COMP713 Distributed & Mobile Systems
 User: what are the prerequisites for COMP500?
