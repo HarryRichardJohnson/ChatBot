@@ -25,7 +25,7 @@ class TestBotClass(unittest.TestCase):
     #This function will test the startTalking function, since we cant test startTalking straight away I have decided test the bots response to a specific questions.
     #In this case this unit test is successfull.
     #When the user asks, to test more of the user stories (questions) replace "User: Which papers are suitable for a Software Engineer?" with the question to test and,
-    #replace "Bot: Contemporary Methods in Software Engineering, Software Development Practice, Programming Languages".
+    #replace "Bot: Contemporary Methods in Software Engineering, Software Development Practice, Programming Languages" with the expected answer.
     def test_bot_response(self):
         print("The function test_startTalking started running.............")
         userQuestion = self.chatterbot.get_response("Which papers are suitable for a Software Engineer?")
