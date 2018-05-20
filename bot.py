@@ -30,7 +30,7 @@ class Bot:
             # Reads from the file and store the conversation in a list, removes new line characters (\n)
             conversationList = convo.read().splitlines()
             # Print statement here for debugging purposes, can be removed later if you want.
-            print(conversationList)
+            #print(conversationList)
         return conversationList
 
     """
