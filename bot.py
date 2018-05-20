@@ -8,7 +8,7 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
-class Talk:
+class Bot:
 
     # This is a constructor, not necessary at this stage but may need it later.
     #def __init__(self):
@@ -25,7 +25,7 @@ class Talk:
             # Reads from the file and store the conversation in a list, removes new line characters (\n)
             conversationList = convo.read().splitlines()
             # Print statement here for debugging purposes, can be removed later if you want.
-            print(conversationList)
+            #print(conversationList)
         return conversationList
 
     """
@@ -54,11 +54,11 @@ def main():
     #This will help solve math problems and give current time etc...... But then stops having proper conversation, need to fix later
     #chatterbot = ChatBot("Skynet", logic_adapters=["chatterbot.logic.MathematicalEvaluation","chatterbot.logic.TimeLogicAdapter"])
     chatterbot = ChatBot("Skynet")
-    #Creates a Talk object
-    talk = Talk()
+    #Creates a Bot object
+    bot = Bot()
 
     #Gets the list of conversations
-    conversations = talk.getConversations()
+    conversations = bot.getConversations()
 
     # The bot gets trained
     chatterbot.set_trainer(ListTrainer)
@@ -67,7 +67,7 @@ def main():
     chatterbot.train(conversations)
 
     #The conversation begins
-    talk.startTalking(chatterbot)
+    bot.startTalking(chatterbot)
 
 
 if __name__ == '__main__':
