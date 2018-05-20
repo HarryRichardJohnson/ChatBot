@@ -1,6 +1,12 @@
-User: What would be a suggested set of papers for a software dev major in BCIS
-Bot: COMP603 Program Design & Construction, COMP603 Program Design & Construction, COMP604 Operating Systems, INFS602 Physical Database Design, ENSE701 Software Engineering, COMP719 Applied Human Computer Interaction, COMP721 Web Development, COMP713 Distributed & Mobile Systems
-User: what are the prerequisites for COMP500?
-Bot: There are none.
-User: Which papers are suitable for a Software Engineer?
-Bot: Contemporary Methods in Software Engineering, Software Development Practice, Programming Languages.
+Which papers are suitable for IT Service Science major?
+COMP601 IT Service Provision, INFS603 Needs Analysis Acquisition & Training, COMP609 Network & System Administration OR COMP607 Information Security Technologies, INFS701 IT Strategy and Control, INFS702 IT Service Management, COMP718 Information Security Management OR INFS703 Contemporary Information Systems
+Which papers are suitable for Networks & Security major?
+ENEL611 Computer Network Applications (CCNA2), COMP609 Network & System Administration, COMP604 Operating Systems OR INFS602 Physical Database Design, COMP714 Advanced Network Technologies (CCNP), COMP715 Network Security, COMP718 Information Security Management OR COMP713 Distributed and Mobile Systems
+Which papers are suitable for Computer Science?
+COMP610 Data Structures & Algorithms, COMP611 Algorithm Design & Analysis, COMP604 Operating Systems OR COMP613 Logic & Discrete Structures, COMP711 Theory of Computation, COMP712 Programming Languages, COMP717 Artificial Intelligence OR COMP713 Distributed & Mobile Systems OR COMP713 Distributed & Mobile Systems
+Which papers are suitable for Software Development major?
+COMP603 Program Design & Construction, COMP602 Software Development Practice, COMP604 Operating Systems, OR INFS602 Physical Database Design, Any 3 of the following: ENSE701 Software Engineering, COMP719 Applied Human Computer Interaction, COMP721 Web Development, COMP713 Distributed & Mobile Systems
+Which papers are suitable for Computational Intelligence major?
+COMP606 Foundations of Information Science, STAT601 Statistical Methods, COMP610 Data Structures & Algorithms OR INFS602 Physical Database Design, COMP717 Artificial Intelligence, COMP723 Data Mining & Knowledge Engineering, COMP700 Text & Vision Intelligence OR COMP701 Nature Inspired Computing
+Which papers are suitable for Analytics major?
+STAT600 Probability, STAT601 Statistical Methods, INFS601 Logical Database Design OR STAT603 Forecasting, STAT702 Industrial & Business Analytics, STAT700 Applied Stochastic Models, COMP723 Data Mining & Knowledge Engineering OR STAT701 Statistical Computing with SAS

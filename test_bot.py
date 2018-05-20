@@ -10,26 +10,15 @@ This class will Test bot.py
 Right now the brain of the bot is being tested(db.sqlite3)
 """
 class TestBotClass(unittest.TestCase):
-    #Sets up the bot
+    #Sets up the bot by creating a bot object
     def setUp(self):
-        print("The function setUp is running.............")
-        self.chatterbot = botcode.ChatBot("Skynet")
         self.bot = botcode.Bot()
-        # Gets the list of conversations
-        conversations = self.bot.getConversations()
-        # The bot gets trained, DON'T NEED TO TRAIN THE BOT FOR UNIT_TESTS, (Its already trained)
-        #self.chatterbot.set_trainer(ListTrainer)
-        # The bot is trained by taking a list of statements that represent a conversation
-        #self.chatterbot.train(conversations)
 
-    #This function will test the startTalking function, since we cant test startTalking straight away I have decided test the bots response to a specific questions.
-    #In this case this unit test is successfull.
-    #When the user asks, to test more of the user stories (questions) replace "User: Which papers are suitable for a Software Engineer?" with the question to test and,
-    #replace "Bot: Contemporary Methods in Software Engineering, Software Development Practice, Programming Languages" with the expected answer.
+    #This function will test the bots response to a specific questions asked by the user.
+    #Please replace get_response parameter with user question and self.assertEqual 2nd parameter with expected answer to unit test
     def test_bot_response(self):
-        print("The function test_startTalking started running.............")
-        userQuestion = self.chatterbot.get_response("Which papers are suitable for a Software Engineer?")
-        self.assertEqual(userQuestion, "Bot: Contemporary Methods in Software Engineering, Software Development Practice, Programming Languages.")
+        userQuestion = self.bot.chatterbot.get_response("Which papers are suitable for Software Development major?")
+        self.assertEqual(userQuestion, "COMP603 Program Design & Construction, COMP602 Software Development Practice, COMP604 Operating Systems, OR INFS602 Physical Database Design, Any 3 of the following: ENSE701 Software Engineering, COMP719 Applied Human Computer Interaction, COMP721 Web Development, COMP713 Distributed & Mobile Systems")
 
 # Runs all the unit-tests
 if __name__ == '__main__':
