@@ -10,8 +10,13 @@ from chatterbot.trainers import ListTrainer
 
 class Bot:
 
-    # This is a constructor, not necessary at this stage but may need it later.
-    #def __init__(self):
+    # This is a constructor is now necessary because it creates a chatterbot object when a bot object is created
+    #I have my own reasons to put this here, before it was in the main, I put this here so it makes it easier to unit test so I can access the same object from test_bot class
+    #Or else it was very hard to use the same object to test it unless I did it in the same file, bot, results would be different due to using another object and unit tests would fail
+    #Note that I fixed a bug, the bug was when I added User: question.... Bot: answer...... it bugged out next time it ran and gave incorrect answers, so I removed that.
+    def __init__(self):
+        # Creates a ChatBot object, the bot is named Skynet
+        self.chatterbot = ChatBot("Skynet")
 
 
     """
@@ -32,14 +37,14 @@ class Bot:
     This function keeps on looping until the user enters q to quit, user input is asked and answer is given depending on the user input
     returns the userInput
     """
-    def startTalking(self, chatterbot):
+    def startTalking(self):
         while True:
             # Trying to catch any unhandled exceptions, for now will just break out and leave it
             try:
                 # User input is asked
                 userInput = input("Ask Skynet the bot a question or q to quit: ")
                 # Gets a response from the bot according to the userInput given
-                response = chatterbot.get_response(userInput)
+                response = self.chatterbot.get_response(userInput)
             except (KeyboardInterrupt, EOFError, SystemExit):
                 break
 
@@ -50,10 +55,6 @@ class Bot:
             print(response)
 
 def main():
-    #Creats a ChatBot object, the bot is named Skynet
-    #This will help solve math problems and give current time etc...... But then stops having proper conversation, need to fix later
-    #chatterbot = ChatBot("Skynet", logic_adapters=["chatterbot.logic.MathematicalEvaluation","chatterbot.logic.TimeLogicAdapter"])
-    chatterbot = ChatBot("Skynet")
     #Creates a Bot object
     bot = Bot()
 
@@ -61,13 +62,13 @@ def main():
     conversations = bot.getConversations()
 
     # The bot gets trained
-    chatterbot.set_trainer(ListTrainer)
+    bot.chatterbot.set_trainer(ListTrainer)
 
     # The bot is trained by taking a list of statements that represent a conversation
-    chatterbot.train(conversations)
+    bot.chatterbot.train(conversations)
 
     #The conversation begins
-    bot.startTalking(chatterbot)
+    bot.startTalking()
 
 
 if __name__ == '__main__':
