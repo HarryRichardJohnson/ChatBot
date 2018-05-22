@@ -12,19 +12,19 @@ Which papers are suitable for Analytics major?
 STAT600 Probability, STAT601 Statistical Methods, INFS601 Logical Database Design OR STAT603 Forecasting, STAT702 Industrial & Business Analytics, STAT700 Applied Stochastic Models, COMP723 Data Mining & Knowledge Engineering OR STAT701 Statistical Computing with SAS
 Prerequisites Corequisites paper
 There are none!
-COMP503 Programming2 paper Prerequisites Corequisites
+What are the prerequisites and corequisites for the COMP503 Programming2 paper?
 Pre-requisite: COMP500 Programming1 or ENSE501 Programming for Engineering Applications
-ENEL611 Computer Network Applications paper Prerequisites Corequisites
+What are the prerequisites and corequisites for the ENEL611 Computer Network Applications paper?
 Pre-requisite: COMP500 Programming1 or ENEL504 Computer Network Principles
-COMP602 Software Development Practice paper Prerequisites Corequisites
+What are the prerequisites and corequisites for the COMP602 Software Development Practice paper?
 Pre-requisite: COMP603 Program Design and Construction or COMP610 Data Structures and Algorithms. Co-requisite: COMP600 IT Project Management
-COMP603 Program Design and Construction paper Prerequisites Corequisites
+What are the prerequisites and corequisites for the COMP603 Program Design and Construction paper?
 Pre-requisite: COMP503 Programming 2. Co-requisite: INFS600 Data and Process Modelling
-COMP604 Operating Systems paper Prerequisites Corequisites
+What are the prerequisites and corequisites for the COMP604 Operating Systems paper?
 Pre-requisite: COMP502 Foundations of IT Infrastructure or COMP503 Programming 2 or COMP610 Data Structures and Algorithms
-COMP607 Information Security Technologies paper Prerequisites Corequisites
+What are the prerequisites and corequisites for the COMP607 Information Security Technologies paper?
 Pre-requisite: COMP504 Computer Networking or ENEL504 Computer Network Principles
-COMP609 Network and System Administration paper Prerequisites Corequisites
+What are the prerequisites and corequisites for the COMP609 Network and System Administration paper?
 Pre-requisite: COMP504 Computer Networking or ENEL504 Computer Network Principles, MATH500 Mathematical Concepts
-COMP610 Data Structures and Algorithms paper Prerequisites Corequisites
+What are the prerequisites and corequisites for the COMP610 Data Structures and Algorithms paper?
 Pre-requisite: COMP503 Programming2 or ENSE502 Object Oriented Applications, MATH502 Algebra and Discrete Mathematics
