@@ -28,3 +28,5 @@ What are the prerequisites and corequisites for the COMP609 Network and System A
 Pre-requisite: COMP504 Computer Networking or ENEL504 Computer Network Principles, MATH500 Mathematical Concepts
 What are the prerequisites and corequisites for the COMP610 Data Structures and Algorithms paper?
 Pre-requisite: COMP503 Programming2 or ENSE502 Object Oriented Applications, MATH502 Algebra and Discrete Mathematics
+HI
+hello
