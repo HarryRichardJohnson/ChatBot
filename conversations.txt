@@ -28,3 +28,53 @@ What are the prerequisites and corequisites for the COMP609 Network and System A
 Pre-requisite: COMP504 Computer Networking or ENEL504 Computer Network Principles, MATH500 Mathematical Concepts
 What are the prerequisites and corequisites for the COMP610 Data Structures and Algorithms paper?
 Pre-requisite: COMP503 Programming2 or ENSE502 Object Oriented Applications, MATH502 Algebra and Discrete Mathematics
+What are the prerequisites and corequisites for the COMP611 Data Algorithm Design and Analysis paper?
+Pre-requisite: COMP610 Data Structures and Algorithms
+What are the prerequisites and corequisites for the COMP613 Logic and Discrete Structures paper?
+Pre-requisite: MATH502 Algebra and Discrete Mathematics
+What are the prerequisites and corequisites for the INFS600 Data and Process Modelling paper?
+Pre-requisite: COMP500 Programming1
+What are the prerequisites and corequisites for the INFS601 Logical Database Design paper?
+Pre-requisite: COMP500 Programming1 or ENSE501 Programming for Engineering Applications
+What are the prerequisites and corequisites for the INFS602 Physical Database Design paper?
+Pre-requisite: COMP503 Programming2 and INFS601 Logical Database Design
+What are the prerequisites and corequisites for the STAT600 Probability paper?
+Pre-requisite: MATH501 Differential, Integral Calculus STAT500 Applied Statistics and COMP500 Programming1 or ENSE501 Programming for Engingeering Application
+What are the prerequisites and corequisites for the STAT600 Probability paper?
+Pre-requisite: COMP503 Programming2 and INFS601 Logical Database Design
+What are the prerequisites and corequisites for the STAT601 Statistical Methods paper?
+Pre-requisite: STAT500 Applied Statistics
+What are the prerequisites and corequisites for the STAT603 Forecasting paper?
+Pre-requisite: STAT500 Applied Statistics
+What are the prerequisites and corequisites for the COMP711 Theory of Computation paper?
+Pre-requisite: COMP610 Data Structures and Algorithms or COMP613 Logic and Discrete Structures
+What are the prerequisites and corequisites for the COMP712 Programming Languages paper?
+Pre-requisite: COMP610 Data Structures and Algorithms or COMP603 Program Design and Construction
+What are the prerequisites and corequisites for the COMP713 Distributed and Mobile Systems paper?
+Pre-requisite: COMP611 Algorithm Design and Analysis
+What are the prerequisites and corequisites for the COMP714 Advanced Network Technologies paper?
+Pre-requisite: COMP609 Network and System Administration
+What are the prerequisites and corequisites for the COMP721 Web Development paper?
+Pre-requisite: COMP603 Program Design and Construction
+What are the prerequisites and corequisites for the COMP723 Data Mining and Knowledge paper?
+Pre-requisite: INFS601 Logical Database Design or INFS602 Physical Database Design
+What are the prerequisites and corequisites for the ENSE701 Software Engineering paper?
+Pre-requisite: COMP603 Program Design and Construction or COMP610 Data Structures and Algorithms
+What are the prerequisites and corequisites for the INFS702 IT Service Management paper?
+Pre-requisite: COMP601 IT Service Provision
+What are the prerequisites and corequisites for the STAT700 Applied Stochastic Models paper?
+Pre-requisite: STAT600 Probability
+What are the prerequisites and corequisites for the STAT701 Statistical Computing with SAS paper?
+Pre-requisite: STAT500 Applied Statistics
+What are the prerequisites and corequisites for the STAT702 Industrial and Business Analytics paper?
+Pre-requisite: STAT601 Statistical Methods
+What are the prerequisites and corequisites for the ENSE502 Object Oriented Applications paper?
+Pre-requisite: ENSE501 Programming for Engineering Applications or COMP500 Programming1
+What are the prerequisites and corequisites for the COMP612 Computer Graphics paper?
+Pre-requisite: MATH502 Algebra and Discrete Mathematics, COMP603 Program Design and Construction or COMP610 Data Structures and Algorithms
+What are the prerequisites and corequisites for the MATH604 Mathematics of Finance paper?
+Pre-requisite: MATH501 Differential and Integral Calculus
+What are the prerequisites and corequisites for the COMP703 Research and Development Project b paper?
+Pre-requisite: COMP702 Research & Development Project 1
+What are the prerequisites and corequisites for the COMP710 Game Programming paper?
+Pre-requisite: COMP612 Computer Graphics Programming
